@@ -20,9 +20,9 @@ FayasNoushad = Client(
 )
 
 START_TEXT = """
-Hello {}, I am a country information finder bot. Give me a country name I will send the informations of the country.
+Hai {}, I can give you information about any country!
 
-Made by @FayasNoushad
+Hosted by @featzai
 """
 HELP_TEXT = """
 - Just send me a country name
@@ -31,12 +31,12 @@ HELP_TEXT = """
 <b><u>Informations :-</u></b>
 Name, Native Name, Capital, Population, Region, Sub Region, Top Level Domains, Calling Codes, Currencies, Residence, Timezone, Wikipedia, Google
 
-Made by @FayasNoushad
+Owner @featzai
 """
 ABOUT_TEXT = """
 - **Bot :** `Country Info Bot`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
+- **Owner :** [ftz4i](https://telegram.me/featzai)
+- **Assistant :** [Friday](https://telegram.me/ftfridaybot)
 - **Source :** [Click here](https://github.com/FayasNoushad/Country-Info-Bot/tree/main)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
@@ -44,8 +44,8 @@ ABOUT_TEXT = """
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('owner', url='https://telegram.me/featzai'),
+        InlineKeyboardButton('Report bugs', url='https://telegram.me/ftfridaybot')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
